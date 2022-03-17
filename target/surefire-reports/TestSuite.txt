@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 27.371 s <<< FAILURE! - in TestSuite
+test.testIfTheCostsCoincide.ifCostsFromEmailAndCalculatorEqual  Time elapsed: 22.775 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //devsite-iframe//iframe[@allow='clipboard-write https://cloud-dot-devsite-v2-prod.appspot.com'] (tried for 10 second(s) with 500 milliseconds interval)
+	at test.testIfTheCostsCoincide.ifCostsFromEmailAndCalculatorEqual(testIfTheCostsCoincide.java:28)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//devsite-iframe//iframe[@allow='clipboard-write https://cloud-dot-devsite-v2-prod.appspot.com']"}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-P409EGR', ip: '192.168.100.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a1fc0cd1d3fd97b0c6d71a350eddbd00, findElement {using=xpath, value=//devsite-iframe//iframe[@allow='clipboard-write https://cloud-dot-devsite-v2-prod.appspot.com']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:7613}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:7613/devtool..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a1fc0cd1d3fd97b0c6d71a350eddbd00
+	at test.testIfTheCostsCoincide.ifCostsFromEmailAndCalculatorEqual(testIfTheCostsCoincide.java:28)
+
